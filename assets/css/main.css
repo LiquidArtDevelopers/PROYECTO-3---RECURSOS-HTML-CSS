@@ -201,7 +201,6 @@ footer {
   }
 }
 footer > :nth-child(1) {
-  background-color: rgb(37, 144, 144);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -222,7 +221,6 @@ footer > :nth-child(1) {
   }
 }
 footer > :nth-child(1) .cajaInfo {
-  background-color: brown;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -231,13 +229,33 @@ footer > :nth-child(1) .cajaInfo {
   row-gap: 1.5rem;
 }
 footer > :nth-child(1) .cajaInfo ul {
-  background-color: rgb(37, 26, 99);
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   row-gap: 0.8rem;
 }
+footer > :nth-child(1) .cajaInfo img {
+  filter: invert(1);
+}
+@media only screen and (min-width: 1200px) {
+  footer > :nth-child(1) > :nth-child(1) {
+    align-items: flex-start;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  footer > :nth-child(1) > :nth-child(3) {
+    align-items: flex-end;
+  }
+}
+footer > :nth-child(1) > :nth-child(3) ul {
+  align-items: center;
+}
+@media only screen and (min-width: 800px) {
+  footer > :nth-child(1) > :nth-child(3) ul {
+    align-items: initial;
+  }
+}
 footer > :nth-child(2) {
-  background-color: rgb(140, 59, 152);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -251,6 +269,13 @@ footer > :nth-child(2) {
     max-width: 1000px;
     min-width: 600px;
   }
+}
+footer > :nth-child(2) > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  row-gap: 4rem;
 }
 footer a, footer p {
   color: white;
