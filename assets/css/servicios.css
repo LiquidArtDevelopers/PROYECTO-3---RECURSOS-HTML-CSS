@@ -206,7 +206,7 @@ footer > :nth-child(1) {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 1.5rem;
+  gap: 3rem;
 }
 @media only screen and (min-width: 800px) {
   footer > :nth-child(1) {
@@ -237,6 +237,14 @@ footer > :nth-child(1) .cajaInfo ul {
 footer > :nth-child(1) .cajaInfo img {
   filter: invert(1);
 }
+footer > :nth-child(1) .cajaInfo .rrss {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5rem;
+}
 @media only screen and (min-width: 1200px) {
   footer > :nth-child(1) > :nth-child(1) {
     align-items: flex-start;
@@ -254,6 +262,13 @@ footer > :nth-child(1) > :nth-child(3) ul {
   footer > :nth-child(1) > :nth-child(3) ul {
     align-items: initial;
   }
+}
+footer > :nth-child(1) > :nth-child(3) ul a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 1.5rem;
 }
 footer > :nth-child(2) {
   width: 100%;
