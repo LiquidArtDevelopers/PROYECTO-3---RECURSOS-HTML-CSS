@@ -125,6 +125,7 @@
             </article>
         </section>
 
+        <!-- Sección para el art03 -->
         <section>
             <!-- Artículo 03 -->
             <article class="art03">
@@ -137,6 +138,37 @@
 
                 <img src="https://dummyimage.com/1500x900" alt="" title="">
 
+            </article>
+        </section>
+
+        <!-- Sección para el artForm -->
+        <section>
+            <article class="artForm">
+                <h3>Lorem ipsum dolor sit.</h3>
+
+                <form action="./php/endPointForm.php" method="post">
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="" id="nombre" placeholder="Escribe tu nombre" required minlength="3" maxlength="20">
+
+                    <label for="tel">Teléfono</label>
+                    <input type="tel" name="" id="tel" placeholder="Aquí tu teléfono">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="" id="email" placeholder="Correo electrónico" required>
+
+                    <label for="hora">Hora de inicio</label>
+                    <input type="time" name="" id="hora">
+
+                    <label for="fecha">Fecha del evento</label>
+                    <input type="date" name="" id="fecha">
+
+                    <label for="mensaje">Comentarios</label>
+                    <textarea name="" id="mensaje" placeholder="Escribe aquí tu mensaje"></textarea>
+
+                    <input type="submit" value="ENVIAR" class="boton">
+
+                </form>                
             </article>
         </section>
         
@@ -205,7 +237,7 @@
                     <li>
                         <a href="https://maps.app.goo.gl/EB3bPiGW1yfoJg3p9" title="Estamos en Donostia en la dirección Paseo Portuetxe 23b, 413 Donostia" target="_blank">
                             <img src="./assets/img/system/location.svg" alt="Estamos en Donostia en la dirección Paseo Portuetxe 23b, 413 Donostia" title="Estamos en Donostia en la dirección Paseo Portuetxe 23b, 413 Donostia" width="20" height="20"> 
-                            <span>Paseo Portuetxe 23b, 413 Donostia</span>
+                            <span>Paseo Portuetxe 23b<br>413 Donostia</span>
                         </a>
                     </li>
                 </ul>

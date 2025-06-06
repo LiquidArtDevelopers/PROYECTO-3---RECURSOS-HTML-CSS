@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(113, 113, 113);
+  color: rgb(176, 176, 176);
   font-size: 3rem;
   letter-spacing: 4px;
 }
@@ -289,14 +289,6 @@ footer > :nth-child(1) .cajaInfo .rrss {
 @media only screen and (min-width: 1200px) {
   footer > :nth-child(1) > :nth-child(3) {
     align-items: flex-end;
-  }
-}
-footer > :nth-child(1) > :nth-child(3) ul {
-  align-items: center;
-}
-@media only screen and (min-width: 800px) {
-  footer > :nth-child(1) > :nth-child(3) ul {
-    align-items: initial;
   }
 }
 footer > :nth-child(1) > :nth-child(3) ul a {
