@@ -35,6 +35,14 @@ h3 {
   letter-spacing: 2px;
 }
 
+h4 {
+  font-family: "Open Sans";
+  color: rgb(29, 29, 29);
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
 p {
   font-family: "Open Sans";
   color: rgb(29, 29, 29);
@@ -423,6 +431,72 @@ footer ul {
     width: 80%;
     height: 30dvh;
   }
+}
+
+.art04 {
+  width: 100%;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  row-gap: 2rem;
+}
+@media only screen and (min-width: 1200px) {
+  .art04 {
+    width: 80%;
+    padding: initial;
+    row-gap: 4rem;
+  }
+}
+.art04 .ralla {
+  width: 60px;
+  height: 2px;
+  background-color: #d14d4d;
+}
+.art04 .contenedor-fichas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  row-gap: 3rem;
+}
+@media only screen and (min-width: 800px) {
+  .art04 .contenedor-fichas {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+.art04 .contenedor-fichas .ficha {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  row-gap: 1rem;
+}
+@media only screen and (min-width: 800px) {
+  .art04 .contenedor-fichas .ficha {
+    width: 23%;
+    max-width: initial;
+  }
+}
+.art04 .contenedor-fichas .ficha h4 {
+  order: 3;
+}
+.art04 .contenedor-fichas .ficha img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+.art04 .contenedor-fichas .ficha p {
+  text-align: center;
+  font-weight: 100;
 }
 
 .moduloBoton02 {

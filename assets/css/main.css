@@ -35,6 +35,14 @@ h3 {
   letter-spacing: 2px;
 }
 
+h4 {
+  font-family: "Open Sans";
+  color: rgb(29, 29, 29);
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
 p {
   font-family: "Open Sans";
   color: rgb(29, 29, 29);
